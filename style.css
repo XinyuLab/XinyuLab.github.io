@@ -51,7 +51,24 @@ header {
   border-bottom: 1px solid var(--border);
   padding: 64px 24px 56px;
 }
-.hero-inner { max-width: var(--max-w); margin: 0 auto; }
+.hero-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  border: 3px solid var(--border);
+  flex-shrink: 0;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+}
 
 h1 {
   font-size: 2.2rem;
@@ -181,6 +198,8 @@ footer {
 
 @media (max-width: 600px) {
   h1 { font-size: 1.6rem; }
+  .hero-inner { flex-direction: column; align-items: center; text-align: center; }
+  .hero-links { justify-content: center; }
   .tl-item { flex-direction: column; gap: 4px; }
   .card-grid { grid-template-columns: 1fr; }
   nav ul { gap: 14px; }
