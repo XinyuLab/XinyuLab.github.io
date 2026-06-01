@@ -47,10 +47,23 @@ nav ul a:hover { color: var(--accent); text-decoration: none; }
 
 /* HERO */
 header {
-  background: linear-gradient(135deg, #f0f4ff 0%, #ffffff 60%);
+  position: relative;
   border-bottom: 1px solid var(--border);
   padding: 64px 24px 56px;
+  background:
+    linear-gradient(to bottom, rgba(10,20,40,0.55) 0%, rgba(10,20,40,0.45) 100%),
+    url('ColoradoRiver.jpg') center/cover no-repeat;
+  color: #fff;
 }
+
+header h1,
+header .title,
+header .dept,
+header .bio,
+header .bio strong { color: #fff; }
+header .title { color: #a8c8ff; }
+header .dept  { color: rgba(255,255,255,0.75); }
+header .bio   { color: rgba(255,255,255,0.88); }
 .hero-inner {
   max-width: var(--max-w);
   margin: 0 auto;
@@ -65,7 +78,7 @@ header {
   border-radius: 50%;
   object-fit: cover;
   object-position: top;
-  border: 3px solid var(--border);
+  border: 3px solid rgba(255,255,255,0.7);
   flex-shrink: 0;
   box-shadow: 0 4px 16px rgba(0,0,0,0.10);
 }
@@ -88,13 +101,13 @@ h1 .chinese { font-size: 1.3rem; color: var(--muted); font-weight: 400; margin-l
   display: inline-block;
   padding: 6px 16px;
   border-radius: 20px;
-  border: 1px solid var(--accent);
-  color: var(--accent);
+  border: 1px solid rgba(255,255,255,0.6);
+  color: #fff;
   font-size: 13px;
   font-weight: 500;
-  transition: background 0.15s, color 0.15s;
+  transition: background 0.15s, border-color 0.15s;
 }
-.hero-links a:hover { background: var(--accent); color: #fff; text-decoration: none; }
+.hero-links a:hover { background: rgba(255,255,255,0.2); border-color: #fff; text-decoration: none; }
 
 /* MAIN */
 main { max-width: var(--max-w); margin: 0 auto; padding: 0 24px 80px; }
