@@ -96,6 +96,16 @@ h1 .chinese { font-size: 1.3rem; color: var(--muted); font-weight: 400; margin-l
 
 .bio { max-width: 620px; font-size: 0.95rem; color: #444; margin-bottom: 20px; }
 
+.hero-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 20px;
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 16px;
+}
+.hero-contact a { color: rgba(255,255,255,0.9); text-decoration: underline; }
+
 .hero-links { display: flex; gap: 10px; flex-wrap: wrap; }
 .hero-links a {
   display: inline-block;
