@@ -203,11 +203,19 @@ a.badge:hover { background: var(--border); text-decoration: none; }
   font-size: 13px;
   color: var(--text);
 }
-.hero-skills { margin-bottom: 16px; }
+.hero-skills { margin-bottom: 16px; gap: 0; }
 .hero-skills span {
-  background: rgba(255,255,255,0.15);
-  border: 1px solid rgba(255,255,255,0.4);
-  color: #fff;
+  background: none;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  color: rgba(255,255,255,0.9);
+  font-size: 13px;
+}
+.hero-skills span + span::before {
+  content: '|';
+  margin: 0 10px;
+  color: rgba(255,255,255,0.4);
 }
 
 /* CONTACT */
