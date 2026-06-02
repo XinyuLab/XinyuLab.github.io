@@ -203,6 +203,12 @@ a.badge:hover { background: var(--border); text-decoration: none; }
   font-size: 13px;
   color: var(--text);
 }
+.hero-skills { margin-bottom: 16px; }
+.hero-skills span {
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.4);
+  color: #fff;
+}
 
 /* CONTACT */
 #contact p { font-size: 0.93rem; line-height: 2; }
