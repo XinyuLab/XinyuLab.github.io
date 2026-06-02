@@ -179,6 +179,8 @@ a.badge:hover { background: var(--border); text-decoration: none; }
 .card h3 { font-size: 0.95rem; margin: 6px 0 8px; font-weight: 600; }
 .card p { font-size: 0.87rem; color: #555; }
 
+.fund { font-size: 0.85rem; color: var(--muted); }
+
 /* AWARDS */
 .award-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
 .award-list li { font-size: 0.92rem; display: flex; align-items: baseline; gap: 12px; }
