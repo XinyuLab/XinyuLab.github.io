@@ -232,12 +232,12 @@ a.badge:hover { background: var(--border); text-decoration: none; }
 .research-card {
   display: flex;
   gap: 0;
-  align-items: stretch;
+  align-items: flex-start;
   border: 1px solid var(--border);
   border-radius: 10px;
-  overflow: hidden;
   background: var(--surface);
   transition: box-shadow 0.15s;
+  overflow: visible;
 }
 
 .research-card:hover {
@@ -249,7 +249,7 @@ a.badge:hover { background: var(--border); text-decoration: none; }
   height: auto;
   flex-shrink: 0;
   display: block;
-  align-self: center;
+  border-radius: 9px 0 0 9px;
 }
 
 .research-content {
