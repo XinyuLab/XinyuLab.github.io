@@ -282,6 +282,11 @@ a.badge:hover { background: var(--border); text-decoration: none; }
   margin-top: 4px;
 }
 
+.research-media {
+  margin-top: 6px;
+  font-size: 0.83rem;
+}
+
 .research-tags span {
   font-size: 11px;
   padding: 2px 10px;
