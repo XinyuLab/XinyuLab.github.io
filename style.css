@@ -246,11 +246,10 @@ a.badge:hover { background: var(--border); text-decoration: none; }
 
 .research-img {
   width: 210px;
-  min-height: 150px;
-  object-fit: cover;
-  object-position: center;
+  height: auto;
   flex-shrink: 0;
   display: block;
+  align-self: center;
 }
 
 .research-content {
