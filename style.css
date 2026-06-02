@@ -94,7 +94,7 @@ h1 .chinese { font-size: 1.3rem; color: var(--muted); font-weight: 400; margin-l
 .title { font-size: 1.05rem; font-weight: 500; color: var(--accent); margin-bottom: 2px; }
 .dept  { font-size: 0.88rem; color: var(--muted); margin-bottom: 2px; }
 
-.bio { max-width: 620px; font-size: 0.95rem; color: #444; margin-top: 1.7rem; margin-bottom: 0; }
+.bio { max-width: 620px; font-size: 0.95rem; color: #444; margin-top: 1.7rem; margin-bottom: 1.5em; }
 
 .hero-email {
   font-size: 0.88rem;
@@ -203,18 +203,16 @@ a.badge:hover { background: var(--border); text-decoration: none; }
   font-size: 13px;
   color: var(--text);
 }
-.hero-skills { margin-top: 0; margin-bottom: 1.5em; gap: 0; }
+.hero-skills {
+  display: block;
+  margin-top: 4px;
+}
 .hero-skills span {
-  background: none;
-  border: none;
-  border-radius: 0;
-  padding: 0;
   color: rgba(255,255,255,0.9);
   font-size: 13px;
 }
 .hero-skills span + span::before {
-  content: '|';
-  margin: 0 10px;
+  content: ' | ';
   color: rgba(255,255,255,0.4);
 }
 
