@@ -213,7 +213,7 @@ a.badge:hover { background: var(--border); text-decoration: none; }
 }
 .hero-skills span {
   color: rgba(255,255,255,0.9);
-  font-size: 0.95rem;
+  font-size: 0.82rem;
 }
 .hero-skills span + span::before {
   content: ' | ';
